@@ -10,7 +10,6 @@
 
 <ul><li style="font-size:25px; color: #3399ff">Person.js</li></ul>
 
-	<pre style="font-style: italic; color: white;background-color: black">
 	import React from "react";
 	const person = (props) =&gt{
 		return (
@@ -22,5 +21,4 @@
 };
 export default person;
 
-</pre>
 
