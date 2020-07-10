@@ -13,10 +13,10 @@
 	import React from "react";
 	const person = (props) =&gt{
 		return (
-       		&ltdiv&gt 
-        	 &ltp onClick={props.click}> name :- {props.name} and age :- {props.age} &lt/p&gt
-         		&ltp&gt{props.children}&lt/p&gt
-   				&lt/div&gt
+       		<div>
+        	 <p onClick={props.click}> name :- {props.name} and age :- {props.age} &lt/p>
+         		<p>{props.children}</p>
+   				</div>
    )
 };
 export default person;
